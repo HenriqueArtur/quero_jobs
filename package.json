@@ -1,17 +1,25 @@
 {
-  "name": "web_scraper",
+  "name": "quero-jobs-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Bot de uso pessoal para encontrar vagas de estágio.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PassaroRoxo/quero_jobs.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "Henrique Artur",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
-    "remove-accents": "^0.4.2"
+    "dotenv": "^8.2.0",
+    "remove-accents": "^0.4.2",
+    "telegram-node-bot": "^4.0.5"
   }
 }
